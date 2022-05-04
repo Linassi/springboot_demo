@@ -8,6 +8,9 @@ spring:
       url: jdbc:mysql://localhost:13306/ssm_db?serverTimezone=UTC
       username: manager
       password: Admin123.
+#  devtools:
+#    restart:
+#      exclude: static/**,public/**,config/application.yml
 
 mybatis-plus:
   global-config:
@@ -16,4 +19,6 @@ mybatis-plus:
       id-type: auto
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
 
